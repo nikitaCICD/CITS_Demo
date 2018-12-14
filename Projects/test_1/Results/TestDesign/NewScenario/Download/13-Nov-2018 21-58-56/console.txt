@@ -1,0 +1,123 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_191
+java.home            : C:\Program Files\Java\jre1.8.0_191
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Tue Nov 13 21:58:56 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: Download] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 32976
+Only local connections are allowed.
+2018-11-13 21:58:58:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Cognizant Intelligent Test Scr | Action: Click | Input:  | Conditon:  | @13-Nov-2018 21:58:58.058
+2018-11-13 21:59:08:11S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$363/905286142@3f38e4b8 (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:303)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:255)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:242)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:118)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:111)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:93)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:170)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'MANGALAM', ip: '192.168.43.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\SHREE\AppData\Local\Temp\scoped_dir11040_28199}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 31b927ff43f21b4f03b40cb06ea7eed9
+*** Element info: {Using=xpath, value=//*[normalize-space(text())='Cognizant Intelligent Test Scripter']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:443)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:522)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:404)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.lambda$getElements$0(AutomationObject.java:312)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 17 more
+
+Couldn't find Object 'Cognizant Intelligent Test Scr' in stipulated Time '10' Seconds
+2018-11-13 21:59:08:11S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task runIteration:Driver Chrome Closed / Could not be reached
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver Chrome Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:148)
+	at com.cognizant.cognizantits.engine.commands.Command.isDriverAlive(Command.java:115)
+	at com.cognizant.cognizantits.engine.commands.General.checkIfDriverIsAlive(General.java:37)
+	at com.cognizant.cognizantits.engine.commands.General.elementPresent(General.java:45)
+	at com.cognizant.cognizantits.engine.commands.General.elementDisplayed(General.java:56)
+	at com.cognizant.cognizantits.engine.commands.General.elementEnabled(General.java:63)
+	at com.cognizant.cognizantits.engine.commands.Basic.Click(Basic.java:45)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:123)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:Download
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 1
+Time Taken           : 00:00:12
+-----------------------------------------------------
+
+Run Finished on Tue Nov 13 21:59:09 IST 2018
+-----------------------------------------------------
+ExecutionDate        : 13-Nov-2018 21-58-56
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:12
+ReportPath           : file:///F:\cognizant-intelligent-test-scripter-1.1\Projects\test_1\Results\TestDesign\NewScenario\Download\13-Nov-2018 21-58-56\summary.html
+-----------------------------------------------------

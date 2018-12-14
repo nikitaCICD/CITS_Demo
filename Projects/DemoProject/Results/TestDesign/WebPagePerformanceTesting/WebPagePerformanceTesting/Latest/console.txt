@@ -1,0 +1,57 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_191
+java.home            : C:\Program Files\Java\jre1.8.0_191
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Tue Nov 13 21:29:02 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:WebPagePerformanceTesting] [TestCase: WebPagePerformanceTesting] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 34602
+Only local connections are allowed.
+2018-11-13 21:29:05:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @http://bing.com | Conditon:  | @13-Nov-2018 21:29:05.005
+[DONE]   | Opened Url: http://bing.com
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: capturePageTimings | Input: @Bing | Conditon:  | @13-Nov-2018 21:29:10.010
+[DONE]   | Timings Updated in Har
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : WebPagePerformanceTesting:WebPagePerformanceTesting
+Executed Steps       : 2
+Passed Steps         : 2
+Failed Steps         : 0
+Time Taken           : 00:00:09
+-----------------------------------------------------
+
+Tue Nov 13 21:29:11 IST 2018: performance log for WebPagePerformanceTesting_WebPagePerformanceTesting
+|
+Tue Nov 13 21:29:13 IST 2018: updated performance log for WebPagePerformanceTesting_WebPagePerformanceTesting
+Run Finished on Tue Nov 13 21:29:13 IST 2018
+Tue Nov 13 21:29:13 IST 2018: Exporting performance log 
+-----------------------------------------------------
+ExecutionDate        : 13-Nov-2018 21-29-02
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:11
+ReportPath           : file:///F:\cognizant-intelligent-test-scripter-1.1\Projects\DemoProject\Results\TestDesign\WebPagePerformanceTesting\WebPagePerformanceTesting\13-Nov-2018 21-29-02\summary.html
+-----------------------------------------------------

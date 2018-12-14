@@ -1,0 +1,72 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_191
+java.home            : C:\Program Files\Java\jre1.8.0_191
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Dec 14 08:20:12 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:Sprintz Login Page] [TestCase: login] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90) on port 17111
+Only local connections are allowed.
+2018-12-14 08:20:15:12S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://spritz.cognizant.com/login.php | Conditon:  | @14-Dec-2018 08:20:15.015
+[DONE]   | Opened Url: https://spritz.cognizant.com/login.php
+
+===================================================================================================
+
+Step:2   | Object: User ID : | Action: Click | Input:  | Conditon:  | @14-Dec-2018 08:21:39.039
+Using @name [userLogin], Object 'User ID :' Found in 35 ms
+[DONE]   | Clicking on User ID :
+
+===================================================================================================
+
+Step:3   | Object: User ID : | Action: Set | Input: @4141112 | Conditon:  | @14-Dec-2018 08:21:39.039
+Using @name [userLogin], Object 'User ID :' Found in 17 ms
+[DONE]   | Entered Text '4141112' on 'User ID :'
+
+===================================================================================================
+
+Step:4   | Object: Password : | Action: setEncrypted | Input: @ZHpmZHNmZHM= Enc | Conditon:  | @14-Dec-2018 08:21:39.039
+Using @name [userPassword], Object 'Password :' Found in 26 ms
+[DONE]   | Entered Encrypted Text ZHpmZHNmZHM= on Password :
+
+===================================================================================================
+
+Step:5   | Object: Login | Action: Click | Input:  | Conditon:  | @14-Dec-2018 08:21:39.039
+Using @name [submit], Object 'Login' Found in 28 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Sprintz Login Page:login
+Executed Steps       : 5
+Passed Steps         : 5
+Failed Steps         : 0
+Time Taken           : 00:01:29
+-----------------------------------------------------
+
+Run Finished on Fri Dec 14 08:21:42 IST 2018
+-----------------------------------------------------
+ExecutionDate        : 14-Dec-2018 08-20-12
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:01:29
+ReportPath           : file:///F:\cognizant-intelligent-test-scripter-1.1\Projects\test_1\Results\TestDesign\Sprintz Login Page\login\14-Dec-2018 08-20-12\summary.html
+-----------------------------------------------------

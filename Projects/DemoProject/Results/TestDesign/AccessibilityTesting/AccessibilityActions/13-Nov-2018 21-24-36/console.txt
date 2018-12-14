@@ -1,0 +1,46 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_191
+java.home            : C:\Program Files\Java\jre1.8.0_191
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Tue Nov 13 21:24:36 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:AccessibilityTesting] [TestCase: AccessibilityActions] [Description: Test Run] [Browser: Firefox] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Firefox
+Launching Local Driver
+1542124482716	geckodriver	INFO	geckodriver 0.18.0
+1542124482840	geckodriver	INFO	Listening on 127.0.0.1:20174
+1542124484917	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+2018-11-13 21:25:25:11S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Firefox Launched
+1542124526374	geckodriver::marionette	ERROR	Failed to kill browser process
+
+---------------------------------------------------
+Testcase Name        : AccessibilityTesting:AccessibilityActions
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:50
+-----------------------------------------------------
+
+Run Finished on Tue Nov 13 21:25:28 IST 2018
+Performance log not found. Make sure "capturePageTimings" action is included in testcase. 
+-----------------------------------------------------
+ExecutionDate        : 13-Nov-2018 21-24-36
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:50
+ReportPath           : file:///F:\cognizant-intelligent-test-scripter-1.1\Projects\DemoProject\Results\TestDesign\AccessibilityTesting\AccessibilityActions\13-Nov-2018 21-24-36\summary.html
+-----------------------------------------------------

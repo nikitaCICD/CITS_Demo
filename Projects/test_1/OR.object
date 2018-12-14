@@ -1,0 +1,228 @@
+<Root type="OR" ref="test_1">
+  <Page title="Topic: chrome · GitHub" ref="Topic_">
+    <ObjectGroup ref="Explore">
+      <Object frame="" ref="Explore">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Explore" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Explore')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/header/div/div[2]/nav/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" ref="class" pref="6"/>
+        <Property value="html > body.logged-out.env-production page-responsive min-width-0 intent-mouse > div.position-relative.js-header-wrapper > header.Header.header-logged-out js-details-container Details position-relative f4 py-3 > div.container-lg.d-lg-flex p-responsive > div.HeaderMenu.d-lg-flex flex-justify-between flex-auto > nav.mt-3.mt-lg-0 > ul.d-lg-flex.list-style-none > li.ml-lg-4 > a.js-selected-navigation-item.HeaderNavlink px-0 py-3 py-lg-2 m-0" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Explore · GitHub" ref="Explore">
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Sign in" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Sign in')])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/header/div/div[2]/div/span/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="text-bold text-white no-underline" ref="class" pref="6"/>
+        <Property value="html > body.logged-out.env-production page-responsive min-width-0 > div.position-relative.js-header-wrapper > header.Header.header-logged-out js-details-container Details position-relative f4 py-3 > div.container-lg.d-lg-flex p-responsive > div.HeaderMenu.d-lg-flex flex-justify-between flex-auto > div.d-lg-flex > span.d-block.d-lg-inline-block > div.HeaderNavlink.px-0 py-2 m-0 > a.text-bold.text-white no-underline" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Sign in to GitHub · GitHub" ref="Sign">
+    <ObjectGroup ref="Username or email address">
+      <Object frame="" ref="Username or email address">
+        <Property value="userLogin" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Cognizant Network ID']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div[2]/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="input[name=&quot;userLogin&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password Forgot password?">
+      <Object frame="" ref="Password Forgot password?">
+        <Property value="userPassword" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="input[name=&quot;userPassword&quot;]" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="commit" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Sign in']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[3]/div/div/form/div[3]/input[3]" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary btn-block" ref="class" pref="6"/>
+        <Property value="input[name=&quot;commit&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Cognizant Intelligent Test Scripter" ref="Cognizant">
+    <ObjectGroup ref="User ID :">
+      <Object frame="" ref="User ID :">
+        <Property value="userLogin" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Cognizant Network ID']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div[2]/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="input[name=&quot;userLogin&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password :">
+      <Object frame="" ref="Password :">
+        <Property value="userPassword" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="input[name=&quot;userPassword&quot;]" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="submit" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@value='submit']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary btn-block login" ref="class" pref="6"/>
+        <Property value="button[name=&quot;submit&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="×">
+      <Object frame="" ref="×">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//span[@onclick=&quot;document.getElementById('teaser').style.display = 'none';&quot;]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/span" ref="xpath" pref="5"/>
+        <Property value="w3-closebtn" ref="class" pref="6"/>
+        <Property value="span.w3-closebtn" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Resources">
+      <Object frame="" ref="Resources">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Resources" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Resources')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/ul/li[3]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.js cssanimations > body > #templatemo_main_menu > div.container > div.row > div.col-xs-12 > ul.nav.nav-justified > li.page-navigate > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Downloads">
+      <Object frame="" ref="Downloads">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Downloads" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Downloads')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div/ul/li[7]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.js cssanimations > body > #templatemo_main_menu > div.container > div.row > div.col-xs-12 > ul.nav.nav-justified > li.page-navigate > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="spritz">
+      <Object frame="" ref="spritz">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="spritz" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'spritz')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div[4]/div/div/div/table/tbody/tr[2]/td[2]/div[2]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.js cssanimations > body > #downloads > div.container > div.row > div.col-xs-12 > div.table-responsive > table.table.table-bordered table-hover > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > div:nth-of-type(1) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Downloads1">
+      <Object frame="" ref="Downloads1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Downloads" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Downloads')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div/div/div/ul/li[7]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.js cssanimations > body > #templatemo_main_menu > div.container > div.row > div.col-xs-12 > ul.nav.nav-justified > li.page-navigate > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="spritz1">
+      <Object frame="" ref="spritz1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="spritz" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'spritz')])[3]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div[4]/div/div/div/table/tbody/tr[3]/td[2]/div[2]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.js cssanimations > body > #downloads > div.container > div.row > div.col-xs-12 > div.table-responsive > table.table.table-bordered table-hover > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > div:nth-of-type(1) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="spritz2">
+      <Object frame="" ref="spritz2">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="spritz" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'spritz')])[4]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[5]/div[4]/div/div/div/table/tbody/tr[4]/td[2]/div[2]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.js cssanimations > body > #downloads > div.container > div.row > div.col-xs-12 > div.table-responsive > table.table.table-bordered table-hover > tbody > tr:nth-of-type(3) > td:nth-of-type(1) > div:nth-of-type(1) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Logout">
+      <Object frame="" ref="Logout">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Logout" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(normalize-space(text()),'Logout')])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/div/ul/li[8]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.js cssanimations > body > #templatemo_main_menu > div.container > div.row > div.col-xs-12 > ul.nav.nav-justified > li.page-navigate > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="spritz cognizant - Google Search" ref="spritz">
+    <ObjectGroup ref="Cognizant Intelligent Test Scr">
+      <Object frame="" ref="Cognizant Intelligent Test Scr">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Cognizant Intelligent Test Scripter']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[7]/div[3]/div[10]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div/div/div[2]/div/a/h3" ref="xpath" pref="5"/>
+        <Property value="LC20lb" ref="class" pref="6"/>
+        <Property value="html > #gsr > #main > #cnt > div.mw > #rcnt > div.col > #center_col > #res > #search > div > #ires > #rso > div.bkWMgd > div.srg > div.g > div > div.rc > div.r > a > h3.LC20lb" ref="css" pref="7"/>
+        <Property value="h3" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Cognizant Intelligent Test Scr1">
+      <Object frame="" ref="Cognizant Intelligent Test Scr1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Cognizant Intelligent Test Scripter']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[7]/div[3]/div[10]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/a/h3)[1]" ref="xpath" pref="5"/>
+        <Property value="LC20lb" ref="class" pref="6"/>
+        <Property value="html > #gsr > #main > #cnt > div.mw > #rcnt > div.col > #center_col > #res > #search > div > #ires > #rso > div.bkWMgd > div.srg > div.g > div > div.rc > div.r > a > h3.LC20lb" ref="css" pref="7"/>
+        <Property value="h3" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>
